@@ -30,4 +30,5 @@ hr {
 .rodape {
     background-color: var(--color-white);
     padding: 1em;
+    font-weight: 500;
 }

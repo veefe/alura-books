@@ -29,3 +29,27 @@
     background-color: var(--color-orange);
     padding: 1em;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .topicos {
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .topicos__titulo {
+        font-size: 1.5em;
+    }
+
+    .topicos__link {
+        font-size: 1.5em;
+    }
+
+    .topicos__lista {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+}

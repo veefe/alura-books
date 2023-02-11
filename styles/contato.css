@@ -58,3 +58,13 @@
         line-height: 1.3em;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .contato {
+        padding: 3em 10vw;
+    }
+
+    .contato__texto {
+        padding-right: 2em;
+    }
+}

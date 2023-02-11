@@ -67,6 +67,11 @@
     display: none;
 }
 
+
+.container__texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
 
 .container__titulo,
@@ -115,4 +120,30 @@
     display: none;
 }
 
+}
+
+@media screen and (min-width: 1728px) {
+
+    .container__texto {
+        display: block;
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--color-azul);
+    }
+
+    .container__texto:hover {
+        color: var(--color-light-grey);
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
 }

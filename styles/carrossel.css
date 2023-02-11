@@ -100,3 +100,37 @@
         margin: 2em auto;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+        margin: 0 10vw 3em 10vw; /* ocupa 80% da tela deixando 20% de margem nos lados */
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .card {
+        width: 50%;
+        margin: 2.8em 0 0 3em;
+    }
+
+    .descricao__titulo, .descricao__titulo-autora {
+        font-size: 2em;
+        margin-right: 2em;
+    }
+
+    .descricao__texto {
+        font-size: 1em;
+        margin-right: 2em;
+        padding: 0;
+    }
+
+
+}

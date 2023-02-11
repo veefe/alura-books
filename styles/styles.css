@@ -15,6 +15,8 @@
     --color-degrade-azul: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --color-azul: #002f52;
     --color-black: #000000;
+    --color-grey: #474646;
+    --color-light-grey: #858585;
 
     --font-poppins: "Poppins", sans-serif;
     --font-josefin: "Josefin Sans", sans-serif;

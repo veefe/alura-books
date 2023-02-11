@@ -13,6 +13,10 @@ hr {
     display: none;
 }
 
+.lista-rodape__link:hover {
+    color: var(--color-orange);
+}
+
 @media screen and (min-width: 1024px) {
 
     .rodape {

@@ -76,6 +76,10 @@
     font-weight: 700;
 }
 
+.botoes__ancora:hover {
+    background-color: var(--color-azul);
+}
+
 @media screen and (min-width: 1024px) {
     .carrossel__titulo {
         font-size: 1.62em;

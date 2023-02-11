@@ -30,6 +30,11 @@
     padding: 1em;
 }
 
+.topicos__link:hover {
+    color: var(--color-orange);
+    background-color: var(--color-white);
+}
+
 @media screen and (min-width: 1024px) {
 
     .topicos {

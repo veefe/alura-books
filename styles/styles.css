@@ -6,6 +6,7 @@
 @import url("/styles/carrossel.css");
 @import url("/styles/topicos.css");
 @import url("/styles/contato.css");
+@import url("/styles/rodape.css");
 
 :root {
     --color-background: #ebecee;
@@ -24,14 +25,4 @@ body {
     font-family: var(--font-poppins);
     font-size: 1em;
     font-weight: 400;
-}
-
-hr {
-    margin: 0;
-}
-
-.rodape {
-    background-color: var(--color-white);
-    padding: 1em;
-    font-weight: 500;
 }
